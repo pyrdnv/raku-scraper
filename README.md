@@ -1,9 +1,5 @@
 ### RakuScraper
 
-<p align="center">
-  <img src="raku-scraper-logo.png" alt="RakuScraper Logo" width="400"> <!-- Adjust width as necessary -->
-</p>
-
 `RakuScraper` is a powerful yet easy-to-use Python library for automated web scraping. The name "Raku" is inspired by the Japanese word that means "easy." True to its name, `RakuScraper` is devoted to simplifying the automation and scraping of websites. With a clean and intuitive API, you can collect the data you need without the hassle.
 
 ### Installation
