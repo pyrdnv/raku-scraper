@@ -43,10 +43,6 @@ results = scraper.scrape()
 print("Results:", results)
 ```
 
-### Documentation
-
-For detailed documentation and advanced usage examples, refer to the [official documentation](https://your-documentation-link.com).  <!-- Replace with the actual link to your documentation -->
-
 ### Contributing
 
 We welcome contributions from the community. If you'd like to contribute, feel free to open an issue or create a pull request. For major changes, please open an issue first to discuss what you would like to change.
