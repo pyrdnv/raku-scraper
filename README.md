@@ -1,24 +1,30 @@
-RakuScraper
-RakuScraper Logo <!-- Replace with the actual path to your logo image file if you have one -->
+### RakuScraper
 
-RakuScraper is a powerful yet easy-to-use Python library for automated web scraping. The name "Raku" is inspired by the Japanese word that means "easy". True to its name, RakuScraper is devoted to simplifying the automation and scraping of websites. With a clean and intuitive API, you can collect the data you need without the hassle.
+![RakuScraper Logo](logo.png)  <!-- Replace with the actual path to your logo image file if you have one -->
 
-Installation
-You can easily install RakuScraper via pip:
+`RakuScraper` is a powerful yet easy-to-use Python library for automated web scraping. The name "Raku" is inspired by the Japanese word that means "easy." True to its name, `RakuScraper` is devoted to simplifying the automation and scraping of websites. With a clean and intuitive API, you can collect the data you need without the hassle.
 
-bash
-Copy code
+### Installation
+
+You can easily install `RakuScraper` via pip:
+
+```bash
 pip install raku-scraper
-Features
-Ease of Use: A user-friendly API that makes web scraping a breeze.
-Flexibility: Easily customizable for a wide range of web scraping tasks.
-Robust: Built to handle errors gracefully and continue the scraping process.
-Quick Start
-Here’s a quick example that demonstrates the simplicity and power of RakuScraper. In this example, we will automate the process of accepting cookies on a webpage, then scrape the title of the webpage before and after changing the language of the webpage.
+```
 
-python
-Copy code
-from raku_scraper import ScrapingTask, RakuScraper  # Import the necessary classes
+### Features
+
+- **Ease of Use**: A user-friendly API that makes web scraping a breeze.
+- **Flexibility**: Easily customizable for a wide range of web scraping tasks.
+- **Robust**: Built to handle errors gracefully and continue the scraping process.
+
+### Quick Start
+
+Here’s a quick example that demonstrates the simplicity and power of `RakuScraper`. In this example, we will automate the process of accepting cookies on a webpage, then scrape the title of the webpage before and after changing the language of the webpage.
+
+```python
+# Import the necessary classes from RakuScraper
+from raku_scraper import ScrapingTask, RakuScraper  
 
 # Create a scraping task for a specific URL
 task = ScrapingTask(url="https://www.example.com", title="Example Page", description="A test page")
@@ -35,18 +41,12 @@ results = scraper.scrape()
 
 # Print the scraped data
 print("Results:", results)
-Documentation
-For detailed documentation and advanced usage examples, refer to the official documentation. <!-- Replace with the actual link to your documentation -->
+```
 
-Contributing
+### Documentation
+
+For detailed documentation and advanced usage examples, refer to the [official documentation](https://your-documentation-link.com).  <!-- Replace with the actual link to your documentation -->
+
+### Contributing
+
 We welcome contributions from the community. If you'd like to contribute, feel free to open an issue or create a pull request. For major changes, please open an issue first to discuss what you would like to change.
-
-License
-RakuScraper is licensed under the MIT License - see the LICENSE file for details. <!-- Replace with the actual path to your LICENSE file -->
-
-Make sure to replace placeholders like "https://your-documentation-link.com" with actual URLs, and adjust the import statements according to how you structure your package. Also, if you have a logo for RakuScraper, replace "logo.png" with the actual path to your logo image file. If you don’t have a logo, you can remove that line.
-
-
-
-
-
