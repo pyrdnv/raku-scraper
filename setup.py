@@ -14,9 +14,9 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/pyrdnv/raku-scraper",
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: GNU License",
-        "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
 )
